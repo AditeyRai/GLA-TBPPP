@@ -1,0 +1,51 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+} */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+.header p {
+    font-size: 18px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.content .text {
+    width: 60%;
+}
+.content .text p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.content .profile {
+    width: 35%;
+    text-align: center;
+}
+.content .profile img {
+    width: 100%;
+    border-radius: 8px;
+}
+.content .profile .name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content .profile .name i {
+    margin-right: 5px;
+}
